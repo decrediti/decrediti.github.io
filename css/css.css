@@ -70,11 +70,11 @@ body {
 	transition: all 1s;
 }
 #header img {
-	height: 50%;
+	height: 45%;
 }
 #header span {
 	font-size: 5em;
-	font-family: mtav;
+	font-family: ArialCaps;
 	color: rgb(0, 88, 156);
 }
 .center {
@@ -141,7 +141,7 @@ a {
 }
 table {
 	position: absolute;
-	top: 50px;
+	top: 70px;
 	background: rgba(255, 255, 255, 0.91);
 	box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.14);
 }
@@ -161,7 +161,7 @@ table tr td:last-child {
 	width: 100%;
 	color: #fff;
 	font-family: mtav;
-	padding: 15px 0;
+	padding: 20px 0;
 	text-align: center;
 }
 .inf {
@@ -173,4 +173,13 @@ table tr td:last-child {
 	padding: 30px 0px;
 	font-style: italic;
 	width: 1098px;
+}
+#copyright div {
+	width: 1098px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-family: arial;
+	font-size: 1em;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.59);
 }
